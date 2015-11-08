@@ -2,4 +2,9 @@
     <string name="app_name">Licenseverifer</string>
     <string name="action_settings">Settings</string>
     <string name="explanation">Explanation text</string>
+    <string name="last_name_label">Last Name</string>
+    <string name="first_name_label">First Name</string>
+    <string name="license_id_label">License Id</string>
+    <string name="address_label">Address</string>
+    <string name="date_of_birth_label">Date of Birth</string>
 </resources>
