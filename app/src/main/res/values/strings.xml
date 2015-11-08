@@ -9,5 +9,6 @@
     <string name="city_label">City</string>
     <string name="state_label">State</string>
     <string name="zip_label">Zip</string>
-    <string name="license_id_label">License Id</string>
+    <string name="license_number_label">License Number</string>
+    <string name="signup">Signup</string>
 </resources>

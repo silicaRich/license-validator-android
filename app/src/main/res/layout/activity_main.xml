@@ -92,7 +92,164 @@
         </LinearLayout>
         <!-- End Date of Birth -->
 
-       
+        <!-- Address -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/address_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="@string/address_label"
+                android:textSize="50px" />
+
+            <EditText
+                android:id="@+id/address_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/address_text"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical"
+                android:inputType="textEmailAddress"
+                android:textSize="50px" />
+
+        </LinearLayout>
+        <!-- End Address -->
+
+        <!-- City -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/city_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="@string/city_label"
+                android:textSize="50px" />
+
+            <EditText
+                android:id="@+id/city_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/city_text"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical"
+                android:inputType="textEmailAddress"
+                android:textSize="50px" />
+
+        </LinearLayout>
+        <!-- End City -->
+
+        <!-- State -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/state_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="@string/state_label"
+                android:textSize="50px" />
+
+            <EditText
+                android:id="@+id/state_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/state_text"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical"
+                android:inputType="textEmailAddress"
+                android:textSize="50px" />
+
+        </LinearLayout>
+        <!-- End State -->
+
+
+        <!-- Zip -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/zip_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="@string/zip_label"
+                android:textSize="50px" />
+
+            <EditText
+                android:id="@+id/zip_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/zip_text"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical"
+                android:inputType="number"
+                android:textSize="50px" />
+
+        </LinearLayout>
+        <!-- End Zip -->
+
+        <!-- License -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/license_number_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="@string/license_number_label"
+                android:textSize="50px" />
+
+            <EditText
+                android:id="@+id/license_number_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/license_number_text"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical"
+                android:inputType="number"
+                android:textSize="50px" />
+
+        </LinearLayout>
+        <!-- End License -->
+
+    <!-- Submit Application -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="20dp"
+            android:background="#0099FF"
+            android:text="@string/signup"
+            android:textColor="#FFFFFF" />
+
+
+    </LinearLayout>
+
+
+
 
     </LinearLayout>
 
