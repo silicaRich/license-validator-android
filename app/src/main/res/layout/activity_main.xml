@@ -32,7 +32,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignBaseline="@+id/first_name_text"
                 android:layout_weight="1"
-                android:gravity="right|center_vertical"
+                android:gravity="left|center_vertical"
 
                 android:inputType="textEmailAddress"
                 android:textSize="50px" />
@@ -49,7 +49,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
-                android:layout_marginTop="20px"
                 android:text="@string/last_name_label"
                 android:textSize="50px" />
 
@@ -59,12 +58,42 @@
                 android:layout_height="wrap_content"
                 android:layout_alignBaseline="@+id/last_name_text"
                 android:layout_weight="1"
-                android:gravity="right|center_vertical"
+                android:gravity="left|center_vertical"
 
                 android:inputType="textEmailAddress"
                 android:textSize="50px" />
 
         </LinearLayout>
+
+        <!-- Date of Birth -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/date_of_birth_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="@string/date_of_birth_label"
+                android:textSize="50px" />
+
+            <EditText
+                android:id="@+id/date_of_birth_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/date_of_birth_text"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical"
+                android:inputType="textEmailAddress"
+                android:textSize="50px" />
+
+        </LinearLayout>
+        <!-- End Date of Birth -->
+
+       
+
     </LinearLayout>
 
     <!--

@@ -4,7 +4,10 @@
     <string name="explanation">Explanation text</string>
     <string name="last_name_label">Last Name</string>
     <string name="first_name_label">First Name</string>
-    <string name="license_id_label">License Id</string>
-    <string name="address_label">Address</string>
     <string name="date_of_birth_label">Date of Birth</string>
+    <string name="address_label">Address</string>
+    <string name="city_label">City</string>
+    <string name="state_label">State</string>
+    <string name="zip_label">Zip</string>
+    <string name="license_id_label">License Id</string>
 </resources>
